@@ -1,0 +1,19 @@
+{
+  "name": "monster-hunter-rise-bot",
+  "version": "0.0.0",
+  "description": "Un pequeño bot para hacer mas amena la espera de monster hunter rise",
+  "main": "bot_main.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telebot": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./bot_main.js",
+    "dev": "cross-env PORT=3000 NODE_ENV=development nodemon",
+    "devbug": "cross-env PORT=3000 DEBUG=nodepop:* NODE_ENV=development nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jjsue",
+  "license": "ISC"
+}
